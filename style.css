@@ -1,11 +1,7 @@
 body{
-background: linear-gradient(to right,purple, blue);
+background: linear-gradient(to right,rgb(202, 62, 202), rgb(91, 91, 243));
 background-repeat:no-repeat;
 background-attachment:fixed;
-}
-
-hr{
-    color:black;
 }
 
 
