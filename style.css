@@ -3,9 +3,19 @@ body{
     background-image: url(resume-background.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
 }
 
 
+h1{color:white}
+h2{color:white}
+h3{color:white}
+h4{color:white}
+h5{color:white}
+h6{color:white}
+li{color:white}
+p{color:white}
 
 
 
