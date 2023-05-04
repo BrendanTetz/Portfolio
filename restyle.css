@@ -1,18 +1,15 @@
 
 
 body{
-    background-color: #ECE366;
+    background-image:linear-gradient(to right,#ECE366, #dfdba8);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
 }
 
-h1{text-align: center;
-    }
-
-h2{text-align: center;
-}
+h1{text-align: center;}
+h2{text-align: center;}
 h3{text-align: center;}
 h4{text-align: center;}
 h5{text-align: center;}
@@ -20,30 +17,22 @@ h6{text-align: center;}
 p{text-align: center;
 }
 
-ul {
-    list-style-type: none;
+ol{list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
+
+}
+ol li{float:left;}
+li a {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
   }
-  
-  /* Change the link color to #111 (black) on hover */
-  li a:hover {
-    background-color: #111;
-  }
+
 
 
 .flex-container{
