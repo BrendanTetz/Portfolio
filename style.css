@@ -1,0 +1,25 @@
+body{
+background: linear-gradient(to right,purple, blue);
+background-repeat:no-repeat;
+background-attachment:fixed;
+}
+
+hr{
+    color:black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.flex-container{
+    display:flex;
+}
