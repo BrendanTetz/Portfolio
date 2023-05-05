@@ -1,21 +1,41 @@
 
-
 body{
-    background-image: url(reshome.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+
+    background-repeat:no-repeat;
     background-position: center;
     background-size: cover;
+    position:relative;
+    }
+
+body::before{
+    content:'';
+    background-image: url(reshome.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    position:absolute;
+    inset:0;
+    opacity:.6;
+    
 }
 
-h1{text-align: center;}
-h2{text-align: center;}
-h3{text-align: center;}
-h4{text-align: center;}
-h5{text-align: center;}
-h6{text-align: center;}
-p{text-align: center;
+h1{
+    isolation: isolate;
+    text-align: center;}
+h2{isolation: isolate;
+    text-align: center;}
+h3{isolation: isolate;
+    text-align: center;}
+h4{isolation: isolate;
+    text-align: center;}
+h5{isolation: isolate;
+    text-align: center;}
+h6{isolation: isolate;
+    text-align: center;}
+p{isolation: isolate;
+    text-align: center;
 }
+li{isolation: isolate;}
 
 ol{list-style-type: none;
     margin: 0;
@@ -33,6 +53,7 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
     opacity:1;
+    
   }
 
 li a:hover{
