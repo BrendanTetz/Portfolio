@@ -3,7 +3,6 @@ body{
     background-repeat:no-repeat;
     background-position: center;
     background-size:cover;
-    position:relative;
     margin:0;
     padding: 10px;
     
@@ -75,6 +74,8 @@ ul {
 }
 
 img{isolation:isolate}
+
+
 
 
 
