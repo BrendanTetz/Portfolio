@@ -9,7 +9,7 @@ body{
 
 body::before{
     content:'';
-    background-image: url(reshome.jpg);
+    background-image: url(home.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
