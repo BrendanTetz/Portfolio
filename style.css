@@ -1,9 +1,9 @@
 body{
-    background-attachment: fixed;
+
     background-repeat:no-repeat;
     background-position: center;
     background-size:cover;
-    position:relative;
+    position: relative;
     margin:0;
     padding: 10px;
     
@@ -13,6 +13,9 @@ body{
 body::before{
     content:'';
     background-image: url(home.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
     position:absolute;
     inset:0;
     opacity:.6;
@@ -75,6 +78,8 @@ ul {
 }
 
 img{isolation:isolate}
+
+
 
 
 
