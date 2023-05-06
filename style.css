@@ -8,6 +8,7 @@ body{
     padding: 10px;
     
     
+    
 }
 
 body::before{
@@ -19,7 +20,6 @@ body::before{
     position:absolute;
     inset:0;
     opacity:.6;
-
 }
 
 
